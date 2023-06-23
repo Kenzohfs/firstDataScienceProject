@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.example</groupId>
+	<artifactId>firstDataScienceProject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>firstDataScienceProject</name>
+	<description>Demo project for Spring Boot</description>
+
+	<properties>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
+	<dependencies>
+<!--		<dependency>-->
+<!--			<groupId>org.apache.hadoop</groupId>-->
+<!--			<artifactId>hadoop-common</artifactId>-->
+<!--			<version>2.6.0</version>-->
+<!--		</dependency>-->
+
+<!--		&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-hdfs &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.hadoop</groupId>-->
+<!--			<artifactId>hadoop-hdfs</artifactId>-->
+<!--			<version>2.6.0</version>-->
+<!--		</dependency>-->
+
+
+<!--		&lt;!&ndash; Dependência do Spark Core &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.spark</groupId>-->
+<!--			<artifactId>spark-core_2.10</artifactId>-->
+<!--			<version>1.5.2</version>-->
+<!--		</dependency>-->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+		<dependency>
+			<groupId>org.apache.spark</groupId>
+			<artifactId>spark-sql_2.13</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
+		<dependency>
+			<groupId>org.apache.spark</groupId>
+			<artifactId>spark-core_2.13</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-hdfs -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-hdfs</artifactId>
+			<version>3.3.5</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-common</artifactId>
+			<version>3.3.5</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>1.5.4</version>
+		</dependency>
+
+
+	</dependencies>
+</project>
